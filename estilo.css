@@ -1,24 +1,37 @@
 body {
-  background: white;
+  background-color: black;
 }
+
 h1 {
   text-align: center;
+  color: white;
 }
+
+p {
+  text-align: center;
+  color: white;
+} 
+
 .caixa1 {
-  position: absolute;
+  position: relative;
   width: 200px;
   height: 200px;
-  background: green;
+  background: violet;
   right: 0;
-  left: 0;
+  left: 382;
   bottom: 0;
+  text-align: center;
+  color: white;
 }
+
 .caixa2 {
-  position: 400px;
+  position: relative;
   width: 200px;
   height: 200px;
-  background: greenyellow;
+  background: purple;
   right: 0;
-  left: 0;
+  left: 382;
   bottom: 0;
+  text-align: center;
+  color: white;
 }
