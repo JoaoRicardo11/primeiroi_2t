@@ -1,78 +1,138 @@
-body {
+body{
+  margin: 0;
+  padding: 0;
   background: black;
 }
-h1 {
-  text-align: center;
-  color: white;
-}
-p {
+h1{
   text-align: center;
   color: white;
 }
 .caixa1 {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  background: violet;
-  left: 382;
-  bottom:0;
-  text-align: center;
-  color: white;
+   position: absolute;
+   background: purple
+   width: 100px;
+   height: 100px;
+   color: #FFFFF;
+   right: 0;
+   top:0;
+   font-family: 'Courier New', Courier, monospace;
 }
 .caixa2 {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  background: purple;
-  left: 382x;
-  bottom: 0;
-  text-align: center;
-  color: white;
+   position: absolute;
+   background: blue;
+   width: 100px;
+   height: 100px;
+   color: #FFFFFF;
+   right: 0;
+   top:105px;
 }
-.menuPrincipal{
-  position: absolute;
-  width: 100%;
-  height: 45px;
-  background: black;
-  font-family: 'Courier New', Courier, monospace;
+.caixa3 {
+   position: absolute;
+   background: rgb(99, 153, 28);
+   width: 100px;
+   height: 100px;
+   color: #FFFFFF;
+   right: 105px;
+   top: 0;
+   font-family: 'Courier New', Courier, monospace;
+}
+.caixa4 {
+   position: absolute;
+   background: blue;
+   width: 100px;
+   height: 100px;
+   color: #FFFFFF;
+   right: 105px;
+   top:105px;
+}
+.caixa5 {
+   position: absolute;
+   background: rgb(169, 169, 199);
+   width: 100px;
+   height: 100px;
+   color: #FFFFFF;
+   right:52px;
+   top: 52px;
+}
+
+.menuPrincipal {
+   position: absolute;
+   width: 100%;
+   height: 45px;
+   background: rgb(72, 99, 52);
+   top: 0;
+   left: 0;
+
 }
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow: 0;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: 0;
 }
 li {
-  float: left;
-
+   float: left;
+   color: white;
 }
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+   display: block;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none; 
+   color: white;
 }
 li a:hover {
-  background: rgb(139, 105, 201);
-  color: azure;
+   background: rgba(0, 0, 0, 0.349);
+   color: rgb(245, 7, 7);
 }
-
-#tigre {
-  width: 50%;
+#bomba {
+   width: 10%;
 }
-.caixatigre {
-  position: absolute;
-  top: 45px;
-  width: 90%;
-  height: 150px;
-  background: white;
-  left: 0;
-  margin: 20px;
-  border-color: purple;
-  border-style: solid;
-  border-width: 20px;
-  padding: 2;
-  display: flex;
-  justify-content: end;
+.boxBomba {
+   position: absolute;
+   width: 90%;
+   height: 200px;
+   background: rgb(224, 9, 178);
+   top: 50px;
+   left: 0;
+   border-color: rgb(255, 255, 255);
+   border-width: 20px;
+   border-style: solid;
+   margin: 20px;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+}
+.rodape {
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+#copy {
+   position: relative;
+   bottom: 0;
+   border-radius: 30px;
+   background: black;
+   color: burlywood;
+   width: 80%;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   font-size: 18px;
+}
+.conteudo {
+   position:absolute;
+   top: 45px;
+   width: 96%;
+   padding: 5px;
+}
+.logoGastao{
+   position: absolute;
+   width: 120px;
+   height: 100px;
+   top: 0;
+   right: 0;
+   z-index: 999;
 }
