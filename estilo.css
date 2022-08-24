@@ -59,7 +59,7 @@ h1{
    position: absolute;
    width: 100%;
    height: 45px;
-   background: rgb(72, 99, 52);
+   background: purple;
    top: 0;
    left: 0;
 
@@ -135,4 +135,20 @@ li a:hover {
    top: 0;
    right: 0;
    z-index: 999;
+}
+.caixa7 {
+   position: relative;
+   left: 600px;
+   bottom: -100px;
+   }
+.caixa8 {
+   position: relative;
+   left: 600px;
+   bottom: -190px;
+   width: 100%;
+}
+p {
+   text-align: center;
+   color: white;
+   
 }
